@@ -165,7 +165,7 @@ resource "aws_instance" "web-server-instance" {
 
 ## 🚀 Deployment Steps
 
-1.  **Clone the Repo:** `git clone <repo-url>`
+1.  **Clone the Repo:** `git clone https://github.com/Eng-Mahmoud-Walid/terraform-testing.git`
 2.  **Start LocalStack:** Ensure Docker is running and start the LocalStack container.
 3.  **Initialize Terraform:** `terraform init` to download necessary plugins.
 4.  **Check Plan:** `terraform plan` to verify intended changes.
